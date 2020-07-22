@@ -118,7 +118,7 @@ const (
 	MaxHashFieldSize int = 1024
 
 	// max zset member size
-	MaxZSetMemberSize int = 1024
+	MaxZSetMemberSize int = 5 * 1024
 
 	// max set member size
 	MaxSetMemberSize int = 1024
