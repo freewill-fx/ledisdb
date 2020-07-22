@@ -11,8 +11,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ledisdb/ledisdb/config"
-	"github.com/ledisdb/ledisdb/server"
+	"github.com/freewill-fx/ledisdb/config"
+	"github.com/freewill-fx/ledisdb/server"
 )
 
 var addr = flag.String("addr", "", "ledisdb listen address")

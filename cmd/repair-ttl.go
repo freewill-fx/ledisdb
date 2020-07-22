@@ -5,9 +5,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/ledisdb/ledisdb/config"
-	"github.com/ledisdb/ledisdb/ledis"
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/freewill-fx/ledisdb/config"
+	"github.com/freewill-fx/ledisdb/ledis"
+	"github.com/freewill-fx/ledisdb/store"
 )
 
 func RepairTTL() {

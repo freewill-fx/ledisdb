@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ledisdb/ledisdb/ledis"
+	"github.com/freewill-fx/ledisdb/ledis"
 	"github.com/siddontang/go/hack"
 	"github.com/siddontang/go/num"
 	lua "github.com/yuin/gopher-lua"

@@ -6,7 +6,7 @@ import (
 
 	"bytes"
 
-	"github.com/ledisdb/ledisdb/ledis"
+	"github.com/freewill-fx/ledisdb/ledis"
 	"github.com/siddontang/go/hack"
 )
 

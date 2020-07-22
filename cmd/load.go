@@ -3,8 +3,8 @@ package cmd
 import (
 	"flag"
 
-	"github.com/ledisdb/ledisdb/config"
-	"github.com/ledisdb/ledisdb/ledis"
+	"github.com/freewill-fx/ledisdb/config"
+	"github.com/freewill-fx/ledisdb/ledis"
 )
 
 func Load() {

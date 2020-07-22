@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ledisdb/ledisdb/config"
+	"github.com/freewill-fx/ledisdb/config"
 )
 
 func pingCommand(c *client) error {

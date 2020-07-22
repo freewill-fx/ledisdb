@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ledisdb/ledisdb/ledis"
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/freewill-fx/ledisdb/ledis"
+	"github.com/freewill-fx/ledisdb/store"
 	"github.com/siddontang/go/hack"
 	"github.com/siddontang/go/num"
 )

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/freewill-fx/ledisdb/store"
 	"github.com/siddontang/go/hack"
 	"github.com/siddontang/go/log"
 	"github.com/siddontang/go/num"

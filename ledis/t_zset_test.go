@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/freewill-fx/ledisdb/store"
 )
 
 const (

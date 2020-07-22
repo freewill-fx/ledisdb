@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ledisdb/ledisdb/config"
+	"github.com/freewill-fx/ledisdb/config"
 	"github.com/siddontang/go/log"
 )
 

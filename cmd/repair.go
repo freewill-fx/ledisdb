@@ -3,8 +3,8 @@ package cmd
 import (
 	"flag"
 
-	"github.com/ledisdb/ledisdb/config"
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/freewill-fx/ledisdb/config"
+	"github.com/freewill-fx/ledisdb/store"
 )
 
 func Repair() {

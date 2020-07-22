@@ -1,6 +1,6 @@
 # LedisDB 
 
-[![Build Status](https://travis-ci.org/ledisdb/ledisdb.svg?branch=develop)](https://travis-ci.org/ledisdb/ledisdb) [![codecov](https://codecov.io/gh/ledisdb/ledisdb/branch/master/graph/badge.svg)](https://codecov.io/gh/ledisdb/ledisdb) [![goreportcard](https://goreportcard.com/badge/github.com/ledisdb/ledisdb)](https://goreportcard.com/report/github.com/ledisdb/ledisdb)
+[![Build Status](https://travis-ci.org/ledisdb/ledisdb.svg?branch=develop)](https://travis-ci.org/ledisdb/ledisdb) [![codecov](https://codecov.io/gh/ledisdb/ledisdb/branch/master/graph/badge.svg)](https://codecov.io/gh/ledisdb/ledisdb) [![goreportcard](https://goreportcard.com/badge/github.com/freewill-fx/ledisdb)](https://goreportcard.com/report/github.com/freewill-fx/ledisdb)
 
 Ledisdb is a high-performance NoSQL database library and server written in [Go](http://golang.org). It's similar to Redis but store data in disk. It supports many data structures including kv, list, hash, zset, set.
 
@@ -18,7 +18,7 @@ LedisDB now supports multiple different databases as backends.
 + HTTP API support, JSON/BSON/msgpack output.
 + Replication to guarantee data safety.
 + Supplies tools to load, dump, and repair database. 
-+ Supports cluster, use [xcodis](https://github.com/ledisdb/xcodis).
++ Supports cluster, use [xcodis](https://github.com/freewill-fx/xcodis).
 + Authentication (though, not via http).
 + Repair integrated: You can use `ledis repair` to repair broken databases and `ledis repair-ttl` to repair a very serious bug for key expiration and TTL if you upgraded from v0.4.
 
@@ -49,7 +49,7 @@ Then you will find all the binary build on `./bin` directory.
 
     It will install leveldb at /usr/local/leveldb and snappy at /usr/local/snappy by default.
 
-    LedisDB uses the modified LevelDB for better performance. [Details.](https://github.com/ledisdb/ledisdb/wiki/leveldb-source-modification)
+    LedisDB uses the modified LevelDB for better performance. [Details.](https://github.com/freewill-fx/ledisdb/wiki/leveldb-source-modification)
 
     You can easily use other LevelDB versions (like Hyper LevelDB or Basho LevelDB) instead, as long as the header files are in `include/leveldb`, not `include/hyperleveldb` or any other location.
 
@@ -123,8 +123,8 @@ curl http://127.0.0.1:11181/0/GET/hello?type=json
 
 ```go
 import (
-    lediscfg "github.com/ledisdb/ledisdb/config"
-    "github.com/ledisdb/ledisdb/ledis"
+    lediscfg "github.com/freewill-fx/ledisdb/config"
+    "github.com/freewill-fx/ledisdb/ledis"
 )
 
 # Use Ledis's default config
@@ -150,7 +150,7 @@ OK
 
 ## Cluster support
 
-LedisDB uses a proxy named [xcodis](https://github.com/ledisdb/xcodis) to support cluster.
+LedisDB uses a proxy named [xcodis](https://github.com/freewill-fx/xcodis) to support cluster.
 
 ## CONTRIBUTING
 
@@ -158,21 +158,21 @@ See [CONTRIBUTING.md] .
 
 ## Benchmark
 
-See [benchmark](https://github.com/ledisdb/ledisdb/wiki/Benchmark) for more.
+See [benchmark](https://github.com/freewill-fx/ledisdb/wiki/Benchmark) for more.
 
 ## Todo
 
-See [Issues todo](https://github.com/ledisdb/ledisdb/issues?labels=todo&page=1&state=open)
+See [Issues todo](https://github.com/freewill-fx/ledisdb/issues?labels=todo&page=1&state=open)
 
 ## Client
 
-See [Clients](https://github.com/ledisdb/ledisdb/wiki/Clients) to find or contribute LedisDB client.
+See [Clients](https://github.com/freewill-fx/ledisdb/wiki/Clients) to find or contribute LedisDB client.
 
 ## Links
 
 + [Official Website](https://ledisdb.io)
-+ [GoDoc](https://godoc.org/github.com/ledisdb/ledisdb)
-+ [Server Commands](https://github.com/ledisdb/ledisdb/wiki/Commands)
++ [GoDoc](https://godoc.org/github.com/freewill-fx/ledisdb)
++ [Server Commands](https://github.com/freewill-fx/ledisdb/wiki/Commands)
 
 ## Caveat
 

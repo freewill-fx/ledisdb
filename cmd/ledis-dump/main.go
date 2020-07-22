@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ledisdb/ledisdb/cmd"
+	"github.com/freewill-fx/ledisdb/cmd"
 )
 
 var (

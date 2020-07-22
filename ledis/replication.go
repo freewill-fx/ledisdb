@@ -6,8 +6,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/ledisdb/ledisdb/rpl"
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/freewill-fx/ledisdb/rpl"
+	"github.com/freewill-fx/ledisdb/store"
 	"github.com/siddontang/go/log"
 	"github.com/siddontang/go/snappy"
 )
