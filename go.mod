@@ -1,4 +1,4 @@
-module github.com/ledisdb/ledisdb
+module github.com/freewill-fx/ledisdb
 
 go 1.12
 
